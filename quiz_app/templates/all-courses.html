@@ -1,0 +1,2623 @@
+{% extends 'layouts/layout.html'%}
+{% block content %}
+{% load static %}
+<section class="all_cources_bgcolor">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <label class="dropdown_catogery">
+
+  <div class="dd-button">
+    Catogery
+  </div>
+
+  <input type="checkbox" class="dd-input" id="test">
+
+  <ul class="dd-menu">
+    <li class="divider"></li>
+     <li>
+      <a href="#baserating1">Recommended for you</a>
+    </li>
+    <li class="divider"></li>
+    <li>
+      <a href="#">AJAX Development</a>
+    </li>
+     <li class="divider"></li>
+     <li>
+      <a href="#">Software Development</a>
+    </li>
+    <li class="divider"></li>
+    <li>
+      <a href="#">Software Development</a>
+    </li>
+    <li class="divider"></li>
+     <li>
+      <a href="#">Software Development</a>
+    </li>
+    <li class="divider"></li>
+    <li>
+      <a href="#">Software Development</a>
+    </li>
+  </ul>
+  
+</label>
+      </div>
+      <div class="col-md-9">
+        <div class="row">
+          <div class="col-md-12">
+        <div class="all_cource_heading_text all_cource_heading_text_top">
+          <h1>Recommended for you</h1>
+        </div>
+           <section class="regular1 slider">
+<div>
+<div>
+<button class="card widthcard_all_cource" id="pover-card" class="btn btn-lg btn-info" data-toggle="popover" data-trigger="action" data-placement="right">
+  <a href="{% url 'video_profile' %}">
+  <img src="{% static 'assets/images/portfolio-1.png' %}" alt="Avatar" style="width:100%">
+  <div class="container_text container_text_bgcolor_gray">
+    <h2>Reactfolio: Boost your online presence with react</h2> 
+    <!-- <p>Architect & Engineer</p>  -->
+     <div class="review_grid_card gapreview_grid">
+      <h3> <span class="rating_review_high">4.3</span> <img src="{% static 'assets/images/gold-star.png' %}" class="img-fluid"> <span class="rating_review_high">(12,000)</span> </h3>
+    </div>
+    <p>By Lorem Ipsum</p> 
+    <div class="tile_list_price">
+    <p>RM 5,999</p>
+    
+  </div>
+  </div>
+</a>
+</button>
+<div  class="popover-content"> 
+<!-- <div id="popover-third" class="font_effect_heading">The third popover content goes here.</div> -->
+<div id="popover-card" >
+	<div class="card text-center">
+		<div class="card-header font_effect_heading">
+			Complete Spanish Course: Master Spanish Beginner to Advanced
+      <div class="bestseller_text_card_hover">Bestseller</div>
+      <div class="total_hourse">
+        <p>15.5 total hoursAll LevelsSubtitles, CC</p>
+      </div>
+		</div>
+		<div class="card-body card-body_popover">
+			<h4 class="card-title_pragraph">Lorem Ipsum is simply dummy text of the printing </h4>
+		   <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+       <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+       <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+			<div class="btn_card__popover">
+        <a href="#" class="btn1 btn-secondary1_bgcolor">Add to cart</a>
+        <a href="#" class="img_heart_whislist"><img src="{% static 'assets/images/heart.png' %}"></a>
+      </div>
+		</div>
+		<!-- <div class="card-footer text-muted bg-warning text-right">
+			<small class="text-white">
+				2 days ago
+			</small>
+		</div> -->
+	</div>	
+</div>
+</div>
+</div>
+</div>
+ <div>
+<div>
+<button class="card widthcard_all_cource" id="pover-card" class="btn btn-lg btn-info" data-toggle="popover" data-trigger="action" data-placement="right">
+  <img src="{% static 'assets/images/web-dev.jpg' %}" alt="Avatar" style="width:100%">
+  <div class="container_text container_text_bgcolor_gray">
+    <h2>Reactfolio: Boost your online presence with react.</h2> 
+    <!-- <p>Architect & Engineer</p>  -->
+     <div class="review_grid_card gapreview_grid">
+      <h3> <span class="rating_review_high">4.3</span> <img src="{% static 'assets/images/gold-star.png' %}" class="img-fluid"> <span class="rating_review_high">(12,000)</span> </h3>
+    </div>
+    <p>By Lorem Ipsum</p> 
+    <div class="tile_list_price">
+    <p>RM 5,999</p>
+    
+  </div>
+  </div>
+</button>
+<div  class="popover-content"> 
+<!-- <div id="popover-third" class="font_effect_heading">The third popover content goes here.</div> -->
+<div id="popover-card" >
+	<div class="card text-center">
+		<div class="card-header font_effect_heading">
+			Complete Spanish Course: Master Spanish Beginner to Advanced
+      <div class="bestseller_text_card_hover">Bestseller</div>
+      <div class="total_hourse">
+        <p>15.5 total hoursAll LevelsSubtitles, CC</p>
+      </div>
+		</div>
+		<div class="card-body card-body_popover">
+			<h4 class="card-title_pragraph">Lorem Ipsum is simply dummy text of the printing </h4>
+		   <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+       <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+       <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+			<div class="btn_card__popover">
+        <a href="#" class="btn1 btn-secondary1_bgcolor">Add to cart</a>
+        <a href="#" class="img_heart_whislist"><img src="{% static 'assets/images/heart.png' %}"></a>
+      </div>
+		</div>
+		<!-- <div class="card-footer text-muted bg-warning text-right">
+			<small class="text-white">
+				2 days ago
+			</small>
+		</div> -->
+	</div>	
+</div>
+</div>
+</div>
+</div>
+    <div>
+<div>
+<button class="card widthcard_all_cource" id="pover-card" class="btn btn-lg btn-info" data-toggle="popover" data-trigger="action" data-placement="right">
+  <img src="{% static 'assets/images/learn-Web-development.jpg' %}" alt="Avatar" style="width:100%">
+  <div class="container_text container_text_bgcolor_gray">
+    <h2>Reactfolio: Boost your online presence with react.</h2> 
+    <!-- <p>Architect & Engineer</p>  -->
+     <div class="review_grid_card gapreview_grid">
+      <h3> <span class="rating_review_high">4.3</span> <img src="{% static 'assets/images/gold-star.png' %}" class="img-fluid"> <span class="rating_review_high">(12,000)</span> </h3>
+    </div>
+    <p>By Lorem Ipsum</p> 
+    <div class="tile_list_price">
+    <p>RM 5,999</p>
+    
+  </div>
+  </div>
+</button>
+<div  class="popover-content"> 
+<!-- <div id="popover-third" class="font_effect_heading">The third popover content goes here.</div> -->
+<div id="popover-card" >
+	<div class="card text-center">
+		<div class="card-header font_effect_heading">
+			Complete Spanish Course: Master Spanish Beginner to Advanced
+      <div class="bestseller_text_card_hover">Bestseller</div>
+      <div class="total_hourse">
+        <p>15.5 total hoursAll LevelsSubtitles, CC</p>
+      </div>
+		</div>
+		<div class="card-body card-body_popover">
+			<h4 class="card-title_pragraph">Lorem Ipsum is simply dummy text of the printing </h4>
+		   <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+       <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png'%}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+       <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+			<div class="btn_card__popover">
+        <a href="#" class="btn1 btn-secondary1_bgcolor">Add to cart</a>
+        <a href="#" class="img_heart_whislist"><img src="{% static 'assets/images/heart.png' %}"></a>
+      </div>
+		</div>
+		<!-- <div class="card-footer text-muted bg-warning text-right">
+			<small class="text-white">
+				2 days ago
+			</small>
+		</div> -->
+	</div>	
+</div>
+</div>
+</div>
+</div>
+   <div>
+<div>
+<button class="card widthcard_all_cource" id="pover-card" class="btn btn-lg btn-info" data-toggle="popover" data-trigger="action" data-placement="right">
+  <img src="{% static 'assets/images/make-money-as-a-content-creator.webp' %}" alt="Avatar" style="width:100%">
+  <div class="container_text container_text_bgcolor_gray">
+    <h2>Reactfolio: Boost your online presence with react.</h2> 
+    <!-- <p>Architect & Engineer</p>  -->
+     <div class="review_grid_card gapreview_grid">
+      <h3> <span class="rating_review_high">4.3</span> <img src="{% static 'assets/images/gold-star.png' %}" class="img-fluid"> <span class="rating_review_high">(12,000)</span> </h3>
+    </div>
+    <p>By Lorem Ipsum</p> 
+    <div class="tile_list_price">
+    <p>RM 5,999</p>
+    
+  </div>
+  </div>
+</button>
+<div  class="popover-content"> 
+<!-- <div id="popover-third" class="font_effect_heading">The third popover content goes here.</div> -->
+<div id="popover-card" >
+	<div class="card text-center">
+		<div class="card-header font_effect_heading">
+			Complete Spanish Course: Master Spanish Beginner to Advanced
+      <div class="bestseller_text_card_hover">Bestseller</div>
+      <div class="total_hourse">
+        <p>15.5 total hoursAll LevelsSubtitles, CC</p>
+      </div>
+		</div>
+		<div class="card-body card-body_popover">
+			<h4 class="card-title_pragraph">Lorem Ipsum is simply dummy text of the printing </h4>
+		   <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+       <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+       <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+			<div class="btn_card__popover">
+        <a href="#" class="btn1 btn-secondary1_bgcolor">Add to cart</a>
+        <a href="#" class="img_heart_whislist"><img src="{% static 'assets/images/heart.png'%}"></a>
+      </div>
+		</div>
+		<!-- <div class="card-footer text-muted bg-warning text-right">
+			<small class="text-white">
+				2 days ago
+			</small>
+		</div> -->
+	</div>	
+</div>
+</div>
+</div>
+</div>
+   <div>
+<div>
+<button class="card widthcard_all_cource" id="pover-card" class="btn btn-lg btn-info" data-toggle="popover" data-trigger="action" data-placement="right">
+  <img src="{% static 'assets/images/maxresdefault.jpg' %}" alt="Avatar" style="width:100%">
+  <div class="container_text container_text_bgcolor_gray">
+    <h2>Reactfolio: Boost your online presence with react.</h2> 
+    <!-- <p>Architect & Engineer</p>  -->
+     <div class="review_grid_card gapreview_grid">
+      <h3> <span class="rating_review_high">4.3</span> <img src="{% static 'assets/images/gold-star.png' %}" class="img-fluid"> <span class="rating_review_high">(12,000)</span> </h3>
+    </div>
+    <p>By Lorem Ipsum</p> 
+    <div class="tile_list_price">
+    <p>RM 5,999</p>
+    
+  </div>
+  </div>
+</button>
+<div  class="popover-content"> 
+<!-- <div id="popover-third" class="font_effect_heading">The third popover content goes here.</div> -->
+<div id="popover-card" >
+	<div class="card text-center">
+		<div class="card-header font_effect_heading">
+			Complete Spanish Course: Master Spanish Beginner to Advanced
+      <div class="bestseller_text_card_hover">Bestseller</div>
+      <div class="total_hourse">
+        <p>15.5 total hoursAll LevelsSubtitles, CC</p>
+      </div>
+		</div>
+		<div class="card-body card-body_popover">
+			<h4 class="card-title_pragraph">Lorem Ipsum is simply dummy text of the printing </h4>
+		   <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+       <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+       <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+			<div class="btn_card__popover">
+        <a href="#" class="btn1 btn-secondary1_bgcolor">Add to cart</a>
+        <a href="#" class="img_heart_whislist"><img src="{% static 'assets/images/heart.png' %}"></a>
+      </div>
+		</div>
+		<!-- <div class="card-footer text-muted bg-warning text-right">
+			<small class="text-white">
+				2 days ago
+			</small>
+		</div> -->
+	</div>	
+</div>
+</div>
+</div>
+</div>
+<div>
+<div>
+<button class="card widthcard_all_cource" id="pover-card" class="btn btn-lg btn-info" data-toggle="popover" data-trigger="focus" data-placement="right">
+  <img src="{% static 'assets/images/maxresdefault.jpg' %}" alt="Avatar" style="width:100%">
+  <div class="container_text container_text_bgcolor_gray">
+    <h2>Reactfolio: Boost your online presence with react.</h2> 
+    <!-- <p>Architect & Engineer</p>  -->
+     <div class="review_grid_card gapreview_grid">
+      <h3> <span class="rating_review_high">4.3</span> <img src="{% static 'assets/images/gold-star.png' %}" class="img-fluid"> <span class="rating_review_high">(12,000)</span> </h3>
+    </div>
+    <p>By Lorem Ipsum</p> 
+    <div class="tile_list_price">
+    <p>RM 5,999</p>
+    
+  </div>
+  </div>
+</button>
+<div  class="popover-content"> 
+<div id="popover-third">The third popover content goes here.</div>
+<div id="popover-card" class="">
+	<div class="card text-center">
+		<div class="card-header">
+			Complete Spanish Course: Master Spanish Beginner to Advanced
+		</div>
+		<div class="card-body">
+			<h4 class="card-title">Special title treatment</h4>
+			<p class="card-text">Using data-trigger="focus" causes the popover to close when you click away. Options are hover|focus|click</p>
+			<a href="#" class="btn btn-secondary">Go somewhere</a>
+		</div>
+		<!-- <div class="card-footer text-muted bg-warning text-right">
+			<small class="text-white">
+				2 days ago
+			</small>
+		</div> -->
+	</div>	
+</div>
+</div>
+</div>
+</div>
+  </section>
+      </div>
+        </div>
+
+          <div class="row row_margin-top">
+          <div class="col-md-12">
+        <div class="all_cource_heading_text">
+          <h1>Because you viewed “AJAX Development”
+</h1>
+        </div>
+           <section class="regular1 slider">
+<div>
+<div>
+<button class="card widthcard_all_cource" id="pover-card" class="btn btn-lg btn-info" data-toggle="popover" data-trigger="action" data-placement="right">
+  <img src="{% static 'assets/images/portfolio-1.png'%}" alt="Avatar" style="width:100%">
+  <div class="container_text container_text_bgcolor_gray">
+    <h2>Reactfolio: Boost your online presence with react</h2> 
+    <!-- <p>Architect & Engineer</p>  -->
+     <div class="review_grid_card gapreview_grid">
+      <h3> <span class="rating_review_high">4.3</span> <img src="{% static 'assets/images/gold-star.png' %}" class="img-fluid"> <span class="rating_review_high">(12,000)</span> </h3>
+    </div>
+    <p>By Lorem Ipsum</p> 
+    <div class="tile_list_price">
+    <p>RM 5,999</p>
+    
+  </div>
+  </div>
+</button>
+<div  class="popover-content"> 
+<!-- <div id="popover-third" class="font_effect_heading">The third popover content goes here.</div> -->
+<div id="popover-card" >
+	<div class="card text-center">
+		<div class="card-header font_effect_heading">
+			Complete Spanish Course: Master Spanish Beginner to Advanced
+      <div class="bestseller_text_card_hover">Bestseller</div>
+      <div class="total_hourse">
+        <p>15.5 total hoursAll LevelsSubtitles, CC</p>
+      </div>
+		</div>
+		<div class="card-body card-body_popover">
+			<h4 class="card-title_pragraph">Lorem Ipsum is simply dummy text of the printing </h4>
+		   <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+       <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+       <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+			<div class="btn_card__popover">
+        <a href="#" class="btn1 btn-secondary1_bgcolor">Add to cart</a>
+        <a href="#" class="img_heart_whislist"><img src="{% static 'assets/images/heart.png' %}"></a>
+      </div>
+		</div>
+		<!-- <div class="card-footer text-muted bg-warning text-right">
+			<small class="text-white">
+				2 days ago
+			</small>
+		</div> -->
+	</div>	
+</div>
+</div>
+</div>
+</div>
+ <div>
+<div>
+<button class="card widthcard_all_cource" id="pover-card" class="btn btn-lg btn-info" data-toggle="popover" data-trigger="action" data-placement="right">
+  <img src="{% static 'assets/images/web-dev.jpg' %}" alt="Avatar" style="width:100%">
+  <div class="container_text container_text_bgcolor_gray">
+    <h2>Reactfolio: Boost your online presence with react.</h2> 
+    <!-- <p>Architect & Engineer</p>  -->
+     <div class="review_grid_card gapreview_grid">
+      <h3> <span class="rating_review_high">4.3</span> <img src="{% static 'assets/images/gold-star.png' %}" class="img-fluid"> <span class="rating_review_high">(12,000)</span> </h3>
+    </div>
+    <p>By Lorem Ipsum</p> 
+    <div class="tile_list_price">
+    <p>RM 5,999</p>
+    
+  </div>
+  </div>
+</button>
+<div  class="popover-content"> 
+<!-- <div id="popover-third" class="font_effect_heading">The third popover content goes here.</div> -->
+<div id="popover-card" >
+	<div class="card text-center">
+		<div class="card-header font_effect_heading">
+			Complete Spanish Course: Master Spanish Beginner to Advanced
+      <div class="bestseller_text_card_hover">Bestseller</div>
+      <div class="total_hourse">
+        <p>15.5 total hoursAll LevelsSubtitles, CC</p>
+      </div>
+		</div>
+		<div class="card-body card-body_popover">
+			<h4 class="card-title_pragraph">Lorem Ipsum is simply dummy text of the printing </h4>
+		   <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+       <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+       <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+			<div class="btn_card__popover">
+        <a href="#" class="btn1 btn-secondary1_bgcolor">Add to cart</a>
+        <a href="#" class="img_heart_whislist"><img src="{% static 'assets/images/heart.png' %}"></a>
+      </div>
+		</div>
+		<!-- <div class="card-footer text-muted bg-warning text-right">
+			<small class="text-white">
+				2 days ago
+			</small>
+		</div> -->
+	</div>	
+</div>
+</div>
+</div>
+</div>
+    <div>
+<div>
+<button class="card widthcard_all_cource" id="pover-card" class="btn btn-lg btn-info" data-toggle="popover" data-trigger="action" data-placement="right">
+  <img src="{% static 'assets/images/learn-Web-development.jpg' %}" alt="Avatar" style="width:100%">
+  <div class="container_text container_text_bgcolor_gray">
+    <h2>Reactfolio: Boost your online presence with react.</h2> 
+    <!-- <p>Architect & Engineer</p>  -->
+     <div class="review_grid_card gapreview_grid">
+      <h3> <span class="rating_review_high">4.3</span> <img src="{% static 'assets/images/gold-star.png' %}" class="img-fluid"> <span class="rating_review_high">(12,000)</span> </h3>
+    </div>
+    <p>By Lorem Ipsum</p> 
+    <div class="tile_list_price">
+    <p>RM 5,999</p>
+    
+  </div>
+  </div>
+</button>
+<div  class="popover-content"> 
+<!-- <div id="popover-third" class="font_effect_heading">The third popover content goes here.</div> -->
+<div id="popover-card" >
+	<div class="card text-center">
+		<div class="card-header font_effect_heading">
+			Complete Spanish Course: Master Spanish Beginner to Advanced
+      <div class="bestseller_text_card_hover">Bestseller</div>
+      <div class="total_hourse">
+        <p>15.5 total hoursAll LevelsSubtitles, CC</p>
+      </div>
+		</div>
+		<div class="card-body card-body_popover">
+			<h4 class="card-title_pragraph">Lorem Ipsum is simply dummy text of the printing </h4>
+		   <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+       <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+       <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+			<div class="btn_card__popover">
+        <a href="#" class="btn1 btn-secondary1_bgcolor">Add to cart</a>
+        <a href="#" class="img_heart_whislist"><img src="{% static 'assets/images/heart.png' %}"></a>
+      </div>
+		</div>
+		<!-- <div class="card-footer text-muted bg-warning text-right">
+			<small class="text-white">
+				2 days ago
+			</small>
+		</div> -->
+	</div>	
+</div>
+</div>
+</div>
+</div>
+   <div>
+<div>
+<button class="card widthcard_all_cource" id="pover-card" class="btn btn-lg btn-info" data-toggle="popover" data-trigger="action" data-placement="right">
+  <img src="{% static 'assets/images/make-money-as-a-content-creator.webp' %}" alt="Avatar" style="width:100%">
+  <div class="container_text container_text_bgcolor_gray">
+    <h2>Reactfolio: Boost your online presence with react.</h2> 
+    <!-- <p>Architect & Engineer</p>  -->
+     <div class="review_grid_card gapreview_grid">
+      <h3> <span class="rating_review_high">4.3</span> <img src="{% static 'assets/images/gold-star.png' %}" class="img-fluid"> <span class="rating_review_high">(12,000)</span> </h3>
+    </div>
+    <p>By Lorem Ipsum</p> 
+    <div class="tile_list_price">
+    <p>RM 5,999</p>
+    
+  </div>
+  </div>
+</button>
+<div  class="popover-content"> 
+<!-- <div id="popover-third" class="font_effect_heading">The third popover content goes here.</div> -->
+<div id="popover-card" >
+	<div class="card text-center">
+		<div class="card-header font_effect_heading">
+			Complete Spanish Course: Master Spanish Beginner to Advanced
+      <div class="bestseller_text_card_hover">Bestseller</div>
+      <div class="total_hourse">
+        <p>15.5 total hoursAll LevelsSubtitles, CC</p>
+      </div>
+		</div>
+		<div class="card-body card-body_popover">
+			<h4 class="card-title_pragraph">Lorem Ipsum is simply dummy text of the printing </h4>
+		   <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+       <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+       <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+			<div class="btn_card__popover">
+        <a href="#" class="btn1 btn-secondary1_bgcolor">Add to cart</a>
+        <a href="#" class="img_heart_whislist"><img src="{% static 'assets/images/heart.png' %}"></a>
+      </div>
+		</div>
+		<!-- <div class="card-footer text-muted bg-warning text-right">
+			<small class="text-white">
+				2 days ago
+			</small>
+		</div> -->
+	</div>	
+</div>
+</div>
+</div>
+</div>
+   <div>
+<div>
+<button class="card widthcard_all_cource" id="pover-card" class="btn btn-lg btn-info" data-toggle="popover" data-trigger="action" data-placement="right">
+  <img src="{% static 'assets/images/maxresdefault.jpg' %}" alt="Avatar" style="width:100%">
+  <div class="container_text container_text_bgcolor_gray">
+    <h2>Reactfolio: Boost your online presence with react.</h2> 
+    <!-- <p>Architect & Engineer</p>  -->
+     <div class="review_grid_card gapreview_grid">
+      <h3> <span class="rating_review_high">4.3</span> <img src="{% static 'assets/images/gold-star.png' %}" class="img-fluid"> <span class="rating_review_high">(12,000)</span> </h3>
+    </div>
+    <p>By Lorem Ipsum</p> 
+    <div class="tile_list_price">
+    <p>RM 5,999</p>
+    
+  </div>
+  </div>
+</button>
+<div  class="popover-content"> 
+<!-- <div id="popover-third" class="font_effect_heading">The third popover content goes here.</div> -->
+<div id="popover-card" >
+	<div class="card text-center">
+		<div class="card-header font_effect_heading">
+			Complete Spanish Course: Master Spanish Beginner to Advanced
+      <div class="bestseller_text_card_hover">Bestseller</div>
+      <div class="total_hourse">
+        <p>15.5 total hoursAll LevelsSubtitles, CC</p>
+      </div>
+		</div>
+		<div class="card-body card-body_popover">
+			<h4 class="card-title_pragraph">Lorem Ipsum is simply dummy text of the printing </h4>
+		   <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+       <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+       <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+			<div class="btn_card__popover">
+        <a href="#" class="btn1 btn-secondary1_bgcolor">Add to cart</a>
+        <a href="#" class="img_heart_whislist"><img src="{% static 'assets/images/heart.png' %}"></a>
+      </div>
+		</div>
+		<!-- <div class="card-footer text-muted bg-warning text-right">
+			<small class="text-white">
+				2 days ago
+			</small>
+		</div> -->
+	</div>	
+</div>
+</div>
+</div>
+</div>
+<div>
+<div>
+<button class="card widthcard_all_cource" id="pover-card" class="btn btn-lg btn-info" data-toggle="popover" data-trigger="focus" data-placement="right">
+  <img src="{% static 'assets/images/maxresdefault.jpg' %}" alt="Avatar" style="width:100%">
+  <div class="container_text container_text_bgcolor_gray">
+    <h2>Reactfolio: Boost your online presence with react.</h2> 
+    <!-- <p>Architect & Engineer</p>  -->
+     <div class="review_grid_card gapreview_grid">
+      <h3> <span class="rating_review_high">4.3</span> <img src="{% static 'assets/images/gold-star.png' %}" class="img-fluid"> <span class="rating_review_high">(12,000)</span> </h3>
+    </div>
+    <p>By Lorem Ipsum</p> 
+    <div class="tile_list_price">
+    <p>RM 5,999</p>
+    
+  </div>
+  </div>
+</button>
+<div  class="popover-content"> 
+<div id="popover-third">The third popover content goes here.</div>
+<div id="popover-card" class="">
+	<div class="card text-center">
+		<div class="card-header">
+			Complete Spanish Course: Master Spanish Beginner to Advanced
+		</div>
+		<div class="card-body">
+			<h4 class="card-title">Special title treatment</h4>
+			<p class="card-text">Using data-trigger="focus" causes the popover to close when you click away. Options are hover|focus|click</p>
+			<a href="#" class="btn btn-secondary">Go somewhere</a>
+		</div>
+		<!-- <div class="card-footer text-muted bg-warning text-right">
+			<small class="text-white">
+				2 days ago
+			</small>
+		</div> -->
+	</div>	
+</div>
+</div>
+</div>
+</div>
+  </section>
+      </div>
+        </div>
+
+          <div class="row row_margin-top">
+          <div class="col-md-12">
+        <div class="all_cource_heading_text">
+          <h1>Popular for Software Development
+</h1>
+        </div>
+           <section class="regular1 slider">
+<div>
+<div>
+<button class="card widthcard_all_cource" id="pover-card" class="btn btn-lg btn-info" data-toggle="popover" data-trigger="action" data-placement="right">
+  <img src="{% static 'assets/images/portfolio-1.png' %}" alt="Avatar" style="width:100%">
+  <div class="container_text container_text_bgcolor_gray">
+    <h2>Reactfolio: Boost your online presence with react</h2> 
+    <!-- <p>Architect & Engineer</p>  -->
+     <div class="review_grid_card gapreview_grid">
+      <h3> <span class="rating_review_high">4.3</span> <img src="{% static 'assets/images/gold-star.png' %}" class="img-fluid"> <span class="rating_review_high">(12,000)</span> </h3>
+    </div>
+    <p>By Lorem Ipsum</p> 
+    <div class="tile_list_price">
+    <p>RM 5,999</p>
+    
+  </div>
+  </div>
+</button>
+<div  class="popover-content"> 
+<!-- <div id="popover-third" class="font_effect_heading">The third popover content goes here.</div> -->
+<div id="popover-card" >
+	<div class="card text-center">
+		<div class="card-header font_effect_heading">
+			Complete Spanish Course: Master Spanish Beginner to Advanced
+      <div class="bestseller_text_card_hover">Bestseller</div>
+      <div class="total_hourse">
+        <p>15.5 total hoursAll LevelsSubtitles, CC</p>
+      </div>
+		</div>
+		<div class="card-body card-body_popover">
+			<h4 class="card-title_pragraph">Lorem Ipsum is simply dummy text of the printing </h4>
+		   <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+       <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+       <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+			<div class="btn_card__popover">
+        <a href="#" class="btn1 btn-secondary1_bgcolor">Add to cart</a>
+        <a href="#" class="img_heart_whislist"><img src="{% static 'assets/images/heart.png' %}"></a>
+      </div>
+		</div>
+		<!-- <div class="card-footer text-muted bg-warning text-right">
+			<small class="text-white">
+				2 days ago
+			</small>
+		</div> -->
+	</div>	
+</div>
+</div>
+</div>
+</div>
+ <div>
+<div>
+<button class="card widthcard_all_cource" id="pover-card" class="btn btn-lg btn-info" data-toggle="popover" data-trigger="action" data-placement="right">
+  <img src="{% static 'assets/images/web-dev.jpg' %}" alt="Avatar" style="width:100%">
+  <div class="container_text container_text_bgcolor_gray">
+    <h2>Reactfolio: Boost your online presence with react.</h2> 
+    <!-- <p>Architect & Engineer</p>  -->
+     <div class="review_grid_card gapreview_grid">
+      <h3> <span class="rating_review_high">4.3</span> <img src="{% static 'assets/images/gold-star.png' %}" class="img-fluid"> <span class="rating_review_high">(12,000)</span> </h3>
+    </div>
+    <p>By Lorem Ipsum</p> 
+    <div class="tile_list_price">
+    <p>RM 5,999</p>
+    
+  </div>
+  </div>
+</button>
+<div  class="popover-content"> 
+<!-- <div id="popover-third" class="font_effect_heading">The third popover content goes here.</div> -->
+<div id="popover-card" >
+	<div class="card text-center">
+		<div class="card-header font_effect_heading">
+			Complete Spanish Course: Master Spanish Beginner to Advanced
+      <div class="bestseller_text_card_hover">Bestseller</div>
+      <div class="total_hourse">
+        <p>15.5 total hoursAll LevelsSubtitles, CC</p>
+      </div>
+		</div>
+		<div class="card-body card-body_popover">
+			<h4 class="card-title_pragraph">Lorem Ipsum is simply dummy text of the printing </h4>
+		   <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+       <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+       <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+			<div class="btn_card__popover">
+        <a href="#" class="btn1 btn-secondary1_bgcolor">Add to cart</a>
+        <a href="#" class="img_heart_whislist"><img src="{% static 'assets/images/heart.png' %}"></a>
+      </div>
+		</div>
+		<!-- <div class="card-footer text-muted bg-warning text-right">
+			<small class="text-white">
+				2 days ago
+			</small>
+		</div> -->
+	</div>	
+</div>
+</div>
+</div>
+</div>
+    <div>
+<div>
+<button class="card widthcard_all_cource" id="pover-card" class="btn btn-lg btn-info" data-toggle="popover" data-trigger="action" data-placement="right">
+  <img src="{% static 'assets/images/learn-Web-development.jpg' %}" alt="Avatar" style="width:100%">
+  <div class="container_text container_text_bgcolor_gray">
+    <h2>Reactfolio: Boost your online presence with react.</h2> 
+    <!-- <p>Architect & Engineer</p>  -->
+     <div class="review_grid_card gapreview_grid">
+      <h3> <span class="rating_review_high">4.3</span> <img src="{% static 'assets/images/gold-star.png' %}" class="img-fluid"> <span class="rating_review_high">(12,000)</span> </h3>
+    </div>
+    <p>By Lorem Ipsum</p> 
+    <div class="tile_list_price">
+    <p>RM 5,999</p>
+    
+  </div>
+  </div>
+</button>
+<div  class="popover-content"> 
+<!-- <div id="popover-third" class="font_effect_heading">The third popover content goes here.</div> -->
+<div id="popover-card" >
+	<div class="card text-center">
+		<div class="card-header font_effect_heading">
+			Complete Spanish Course: Master Spanish Beginner to Advanced
+      <div class="bestseller_text_card_hover">Bestseller</div>
+      <div class="total_hourse">
+        <p>15.5 total hoursAll LevelsSubtitles, CC</p>
+      </div>
+		</div>
+		<div class="card-body card-body_popover">
+			<h4 class="card-title_pragraph">Lorem Ipsum is simply dummy text of the printing </h4>
+		   <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+       <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+       <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+			<div class="btn_card__popover">
+        <a href="#" class="btn1 btn-secondary1_bgcolor">Add to cart</a>
+        <a href="#" class="img_heart_whislist"><img src="{% static 'assets/images/heart.png' %}"></a>
+      </div>
+		</div>
+		<!-- <div class="card-footer text-muted bg-warning text-right">
+			<small class="text-white">
+				2 days ago
+			</small>
+		</div> -->
+	</div>	
+</div>
+</div>
+</div>
+</div>
+   <div>
+<div>
+<button class="card widthcard_all_cource" id="pover-card" class="btn btn-lg btn-info" data-toggle="popover" data-trigger="action" data-placement="right">
+  <img src="{% static 'assets/images/make-money-as-a-content-creator.webp' %}" alt="Avatar" style="width:100%">
+  <div class="container_text container_text_bgcolor_gray">
+    <h2>Reactfolio: Boost your online presence with react.</h2> 
+    <!-- <p>Architect & Engineer</p>  -->
+     <div class="review_grid_card gapreview_grid">
+      <h3> <span class="rating_review_high">4.3</span> <img src="{% static 'assets/images/gold-star.png' %}" class="img-fluid"> <span class="rating_review_high">(12,000)</span> </h3>
+    </div>
+    <p>By Lorem Ipsum</p> 
+    <div class="tile_list_price">
+    <p>RM 5,999</p>
+    
+  </div>
+  </div>
+</button>
+<div  class="popover-content"> 
+<!-- <div id="popover-third" class="font_effect_heading">The third popover content goes here.</div> -->
+<div id="popover-card" >
+	<div class="card text-center">
+		<div class="card-header font_effect_heading">
+			Complete Spanish Course: Master Spanish Beginner to Advanced
+      <div class="bestseller_text_card_hover">Bestseller</div>
+      <div class="total_hourse">
+        <p>15.5 total hoursAll LevelsSubtitles, CC</p>
+      </div>
+		</div>
+		<div class="card-body card-body_popover">
+			<h4 class="card-title_pragraph">Lorem Ipsum is simply dummy text of the printing </h4>
+		   <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+       <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+       <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+			<div class="btn_card__popover">
+        <a href="#" class="btn1 btn-secondary1_bgcolor">Add to cart</a>
+        <a href="#" class="img_heart_whislist"><img src="{% static 'assets/images/heart.png' %}"></a>
+      </div>
+		</div>
+		<!-- <div class="card-footer text-muted bg-warning text-right">
+			<small class="text-white">
+				2 days ago
+			</small>
+		</div> -->
+	</div>	
+</div>
+</div>
+</div>
+</div>
+   <div>
+<div>
+<button class="card widthcard_all_cource" id="pover-card" class="btn btn-lg btn-info" data-toggle="popover" data-trigger="action" data-placement="right">
+  <img src="{% static 'assets/images/maxresdefault.jpg' %}" alt="Avatar" style="width:100%">
+  <div class="container_text container_text_bgcolor_gray">
+    <h2>Reactfolio: Boost your online presence with react.</h2> 
+    <!-- <p>Architect & Engineer</p>  -->
+     <div class="review_grid_card gapreview_grid">
+      <h3> <span class="rating_review_high">4.3</span> <img src="{% static 'assets/images/gold-star.png' %}" class="img-fluid"> <span class="rating_review_high">(12,000)</span> </h3>
+    </div>
+    <p>By Lorem Ipsum</p> 
+    <div class="tile_list_price">
+    <p>RM 5,999</p>
+    
+  </div>
+  </div>
+</button>
+<div  class="popover-content"> 
+<!-- <div id="popover-third" class="font_effect_heading">The third popover content goes here.</div> -->
+<div id="popover-card" >
+	<div class="card text-center">
+		<div class="card-header font_effect_heading">
+			Complete Spanish Course: Master Spanish Beginner to Advanced
+      <div class="bestseller_text_card_hover">Bestseller</div>
+      <div class="total_hourse">
+        <p>15.5 total hoursAll LevelsSubtitles, CC</p>
+      </div>
+		</div>
+		<div class="card-body card-body_popover">
+			<h4 class="card-title_pragraph">Lorem Ipsum is simply dummy text of the printing </h4>
+		   <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+       <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+       <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+			<div class="btn_card__popover">
+        <a href="#" class="btn1 btn-secondary1_bgcolor">Add to cart</a>
+        <a href="#" class="img_heart_whislist"><img src="{% static 'assets/images/heart.png' %}"></a>
+      </div>
+		</div>
+		<!-- <div class="card-footer text-muted bg-warning text-right">
+			<small class="text-white">
+				2 days ago
+			</small>
+		</div> -->
+	</div>	
+</div>
+</div>
+</div>
+</div>
+<div>
+<div>
+<button class="card widthcard_all_cource" id="pover-card" class="btn btn-lg btn-info" data-toggle="popover" data-trigger="focus" data-placement="right">
+  <img src="{% static 'assets/images/maxresdefault.jpg' %}" alt="Avatar" style="width:100%">
+  <div class="container_text container_text_bgcolor_gray">
+    <h2>Reactfolio: Boost your online presence with react.</h2> 
+    <!-- <p>Architect & Engineer</p>  -->
+     <div class="review_grid_card gapreview_grid">
+      <h3> <span class="rating_review_high">4.3</span> <img src="{% static 'assets/images/gold-star.png' %}" class="img-fluid"> <span class="rating_review_high">(12,000)</span> </h3>
+    </div>
+    <p>By Lorem Ipsum</p> 
+    <div class="tile_list_price">
+    <p>RM 5,999</p>
+    
+  </div>
+  </div>
+</button>
+<div  class="popover-content"> 
+<div id="popover-third">The third popover content goes here.</div>
+<div id="popover-card" class="">
+	<div class="card text-center">
+		<div class="card-header">
+			Complete Spanish Course: Master Spanish Beginner to Advanced
+		</div>
+		<div class="card-body">
+			<h4 class="card-title">Special title treatment</h4>
+			<p class="card-text">Using data-trigger="focus" causes the popover to close when you click away. Options are hover|focus|click</p>
+			<a href="#" class="btn btn-secondary">Go somewhere</a>
+		</div>
+		<!-- <div class="card-footer text-muted bg-warning text-right">
+			<small class="text-white">
+				2 days ago
+			</small>
+		</div> -->
+	</div>	
+</div>
+</div>
+</div>
+</div>
+  </section>
+      </div>
+        </div>
+
+        <div class="row row_margin-top">
+          <div class="col-md-12">
+        <div class="all_cource_heading_text">
+          <h1>Learners are viewing
+
+</h1>
+        </div>
+           <section class="regular1 slider">
+<div>
+<div>
+<button class="card widthcard_all_cource" id="pover-card" class="btn btn-lg btn-info" data-toggle="popover" data-trigger="action" data-placement="right">
+  <img src="{% static 'assets/images/portfolio-1.png' %}" alt="Avatar" style="width:100%">
+  <div class="container_text container_text_bgcolor_gray">
+    <h2>Reactfolio: Boost your online presence with react</h2> 
+    <!-- <p>Architect & Engineer</p>  -->
+     <div class="review_grid_card gapreview_grid">
+      <h3> <span class="rating_review_high">4.3</span> <img src="{% static 'assets/images/gold-star.png' %}" class="img-fluid"> <span class="rating_review_high">(12,000)</span> </h3>
+    </div>
+    <p>By Lorem Ipsum</p> 
+    <div class="tile_list_price">
+    <p>RM 5,999</p>
+    
+  </div>
+  </div>
+</button>
+<div  class="popover-content"> 
+<!-- <div id="popover-third" class="font_effect_heading">The third popover content goes here.</div> -->
+<div id="popover-card" >
+	<div class="card text-center">
+		<div class="card-header font_effect_heading">
+			Complete Spanish Course: Master Spanish Beginner to Advanced
+      <div class="bestseller_text_card_hover">Bestseller</div>
+      <div class="total_hourse">
+        <p>15.5 total hoursAll LevelsSubtitles, CC</p>
+      </div>
+		</div>
+		<div class="card-body card-body_popover">
+			<h4 class="card-title_pragraph">Lorem Ipsum is simply dummy text of the printing </h4>
+		   <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+       <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+       <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+			<div class="btn_card__popover">
+        <a href="#" class="btn1 btn-secondary1_bgcolor">Add to cart</a>
+        <a href="#" class="img_heart_whislist"><img src="{% static 'assets/images/heart.png' %}"></a>
+      </div>
+		</div>
+		<!-- <div class="card-footer text-muted bg-warning text-right">
+			<small class="text-white">
+				2 days ago
+			</small>
+		</div> -->
+	</div>	
+</div>
+</div>
+</div>
+</div>
+ <div>
+<div>
+<button class="card widthcard_all_cource" id="pover-card" class="btn btn-lg btn-info" data-toggle="popover" data-trigger="action" data-placement="right">
+  <img src="{% static 'assets/images/web-dev.jpg' %}" alt="Avatar" style="width:100%">
+  <div class="container_text container_text_bgcolor_gray">
+    <h2>Reactfolio: Boost your online presence with react.</h2> 
+    <!-- <p>Architect & Engineer</p>  -->
+     <div class="review_grid_card gapreview_grid">
+      <h3> <span class="rating_review_high">4.3</span> <img src="{% static 'assets/images/gold-star.png' %}" class="img-fluid"> <span class="rating_review_high">(12,000)</span> </h3>
+    </div>
+    <p>By Lorem Ipsum</p> 
+    <div class="tile_list_price">
+    <p>RM 5,999</p>
+    
+  </div>
+  </div>
+</button>
+<div  class="popover-content"> 
+<!-- <div id="popover-third" class="font_effect_heading">The third popover content goes here.</div> -->
+<div id="popover-card" >
+	<div class="card text-center">
+		<div class="card-header font_effect_heading">
+			Complete Spanish Course: Master Spanish Beginner to Advanced
+      <div class="bestseller_text_card_hover">Bestseller</div>
+      <div class="total_hourse">
+        <p>15.5 total hoursAll LevelsSubtitles, CC</p>
+      </div>
+		</div>
+		<div class="card-body card-body_popover">
+			<h4 class="card-title_pragraph">Lorem Ipsum is simply dummy text of the printing </h4>
+		   <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+       <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+       <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+			<div class="btn_card__popover">
+        <a href="#" class="btn1 btn-secondary1_bgcolor">Add to cart</a>
+        <a href="#" class="img_heart_whislist"><img src="{% static 'assets/images/heart.png' %}"></a>
+      </div>
+		</div>
+		<!-- <div class="card-footer text-muted bg-warning text-right">
+			<small class="text-white">
+				2 days ago
+			</small>
+		</div> -->
+	</div>	
+</div>
+</div>
+</div>
+</div>
+    <div>
+<div>
+<button class="card widthcard_all_cource" id="pover-card" class="btn btn-lg btn-info" data-toggle="popover" data-trigger="action" data-placement="right">
+  <img src="{% static 'assets/images/learn-Web-development.jpg' %}" alt="Avatar" style="width:100%">
+  <div class="container_text container_text_bgcolor_gray">
+    <h2>Reactfolio: Boost your online presence with react.</h2> 
+    <!-- <p>Architect & Engineer</p>  -->
+     <div class="review_grid_card gapreview_grid">
+      <h3> <span class="rating_review_high">4.3</span> <img src="{% static 'assets/images/gold-star.png' %}" class="img-fluid"> <span class="rating_review_high">(12,000)</span> </h3>
+    </div>
+    <p>By Lorem Ipsum</p> 
+    <div class="tile_list_price">
+    <p>RM 5,999</p>
+    
+  </div>
+  </div>
+</button>
+<div  class="popover-content"> 
+<!-- <div id="popover-third" class="font_effect_heading">The third popover content goes here.</div> -->
+<div id="popover-card" >
+	<div class="card text-center">
+		<div class="card-header font_effect_heading">
+			Complete Spanish Course: Master Spanish Beginner to Advanced
+      <div class="bestseller_text_card_hover">Bestseller</div>
+      <div class="total_hourse">
+        <p>15.5 total hoursAll LevelsSubtitles, CC</p>
+      </div>
+		</div>
+		<div class="card-body card-body_popover">
+			<h4 class="card-title_pragraph">Lorem Ipsum is simply dummy text of the printing </h4>
+		   <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+       <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+       <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+			<div class="btn_card__popover">
+        <a href="#" class="btn1 btn-secondary1_bgcolor">Add to cart</a>
+        <a href="#" class="img_heart_whislist"><img src="{% static 'assets/images/heart.png' %}"></a>
+      </div>
+		</div>
+		<!-- <div class="card-footer text-muted bg-warning text-right">
+			<small class="text-white">
+				2 days ago
+			</small>
+		</div> -->
+	</div>	
+</div>
+</div>
+</div>
+</div>
+   <div>
+<div>
+<button class="card widthcard_all_cource" id="pover-card" class="btn btn-lg btn-info" data-toggle="popover" data-trigger="action" data-placement="right">
+  <img src="{% static 'assets/images/make-money-as-a-content-creator.webp' %}" alt="Avatar" style="width:100%">
+  <div class="container_text container_text_bgcolor_gray">
+    <h2>Reactfolio: Boost your online presence with react.</h2> 
+    <!-- <p>Architect & Engineer</p>  -->
+     <div class="review_grid_card gapreview_grid">
+      <h3> <span class="rating_review_high">4.3</span> <img src="{% static 'assets/images/gold-star.png' %}" class="img-fluid"> <span class="rating_review_high">(12,000)</span> </h3>
+    </div>
+    <p>By Lorem Ipsum</p> 
+    <div class="tile_list_price">
+    <p>RM 5,999</p>
+    
+  </div>
+  </div>
+</button>
+<div  class="popover-content"> 
+<!-- <div id="popover-third" class="font_effect_heading">The third popover content goes here.</div> -->
+<div id="popover-card" >
+	<div class="card text-center">
+		<div class="card-header font_effect_heading">
+			Complete Spanish Course: Master Spanish Beginner to Advanced
+      <div class="bestseller_text_card_hover">Bestseller</div>
+      <div class="total_hourse">
+        <p>15.5 total hoursAll LevelsSubtitles, CC</p>
+      </div>
+		</div>
+		<div class="card-body card-body_popover">
+			<h4 class="card-title_pragraph">Lorem Ipsum is simply dummy text of the printing </h4>
+		   <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+       <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+       <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+			<div class="btn_card__popover">
+        <a href="#" class="btn1 btn-secondary1_bgcolor">Add to cart</a>
+        <a href="#" class="img_heart_whislist"><img src="{% static 'assets/images/heart.png' %}"></a>
+      </div>
+		</div>
+		<!-- <div class="card-footer text-muted bg-warning text-right">
+			<small class="text-white">
+				2 days ago
+			</small>
+		</div> -->
+	</div>	
+</div>
+</div>
+</div>
+</div>
+   <div>
+<div>
+<button class="card widthcard_all_cource" id="pover-card" class="btn btn-lg btn-info" data-toggle="popover" data-trigger="action" data-placement="right">
+  <img src="{% static 'assets/images/maxresdefault.jpg' %}" alt="Avatar" style="width:100%">
+  <div class="container_text container_text_bgcolor_gray">
+    <h2>Reactfolio: Boost your online presence with react.</h2> 
+    <!-- <p>Architect & Engineer</p>  -->
+     <div class="review_grid_card gapreview_grid">
+      <h3> <span class="rating_review_high">4.3</span> <img src="{% static 'assets/images/gold-star.png' %}" class="img-fluid"> <span class="rating_review_high">(12,000)</span> </h3>
+    </div>
+    <p>By Lorem Ipsum</p> 
+    <div class="tile_list_price">
+    <p>RM 5,999</p>
+    
+  </div>
+  </div>
+</button>
+<div  class="popover-content"> 
+<!-- <div id="popover-third" class="font_effect_heading">The third popover content goes here.</div> -->
+<div id="popover-card" >
+	<div class="card text-center">
+		<div class="card-header font_effect_heading">
+			Complete Spanish Course: Master Spanish Beginner to Advanced
+      <div class="bestseller_text_card_hover">Bestseller</div>
+      <div class="total_hourse">
+        <p>15.5 total hoursAll LevelsSubtitles, CC</p>
+      </div>
+		</div>
+		<div class="card-body card-body_popover">
+			<h4 class="card-title_pragraph">Lorem Ipsum is simply dummy text of the printing </h4>
+		   <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+       <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+       <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+			<div class="btn_card__popover">
+        <a href="#" class="btn1 btn-secondary1_bgcolor">Add to cart</a>
+        <a href="#" class="img_heart_whislist"><img src="{% static 'assets/images/heart.png' %}"></a>
+      </div>
+		</div>
+		<!-- <div class="card-footer text-muted bg-warning text-right">
+			<small class="text-white">
+				2 days ago
+			</small>
+		</div> -->
+	</div>	
+</div>
+</div>
+</div>
+</div>
+<div>
+<div>
+<button class="card widthcard_all_cource" id="pover-card" class="btn btn-lg btn-info" data-toggle="popover" data-trigger="focus" data-placement="right">
+  <img src="{% static 'assets/images/maxresdefault.jpg' %}" alt="Avatar" style="width:100%">
+  <div class="container_text container_text_bgcolor_gray">
+    <h2>Reactfolio: Boost your online presence with react.</h2> 
+    <!-- <p>Architect & Engineer</p>  -->
+     <div class="review_grid_card gapreview_grid">
+      <h3> <span class="rating_review_high">4.3</span> <img src="{% static 'assets/images/gold-star.png' %}" class="img-fluid"> <span class="rating_review_high">(12,000)</span> </h3>
+    </div>
+    <p>By Lorem Ipsum</p> 
+    <div class="tile_list_price">
+    <p>RM 5,999</p>
+    
+  </div>
+  </div>
+</button>
+<div  class="popover-content"> 
+<div id="popover-third">The third popover content goes here.</div>
+<div id="popover-card" class="">
+	<div class="card text-center">
+		<div class="card-header">
+			Complete Spanish Course: Master Spanish Beginner to Advanced
+		</div>
+		<div class="card-body">
+			<h4 class="card-title">Special title treatment</h4>
+			<p class="card-text">Using data-trigger="focus" causes the popover to close when you click away. Options are hover|focus|click</p>
+			<a href="#" class="btn btn-secondary">Go somewhere</a>
+		</div>
+		<!-- <div class="card-footer text-muted bg-warning text-right">
+			<small class="text-white">
+				2 days ago
+			</small>
+		</div> -->
+	</div>	
+</div>
+</div>
+</div>
+</div>
+  </section>
+      </div>
+        </div>
+       
+          <div class="row row_margin-top">
+          <div class="col-md-12">
+        <div class="all_cource_heading_text">
+          <h1>Because you wishlisted “Complete Spanish Course: Master Spanish Beginner to Advanced”</h1>
+        </div>
+           <section class="regular1 slider">
+<div>
+<div>
+<button class="card widthcard_all_cource" id="pover-card" class="btn btn-lg btn-info" data-toggle="popover" data-trigger="action" data-placement="right">
+  <img src="{% static 'assets/images/portfolio-1.png' %}" alt="Avatar" style="width:100%">
+  <div class="container_text container_text_bgcolor_gray">
+    <h2>Reactfolio: Boost your online presence with react</h2> 
+    <!-- <p>Architect & Engineer</p>  -->
+     <div class="review_grid_card gapreview_grid">
+      <h3> <span class="rating_review_high">4.3</span> <img src="{% static 'assets/images/gold-star.png' %}" class="img-fluid"> <span class="rating_review_high">(12,000)</span> </h3>
+    </div>
+    <p>By Lorem Ipsum</p> 
+    <div class="tile_list_price">
+    <p>RM 5,999</p>
+    
+  </div>
+  </div>
+</button>
+<div  class="popover-content"> 
+<!-- <div id="popover-third" class="font_effect_heading">The third popover content goes here.</div> -->
+<div id="popover-card" >
+	<div class="card text-center">
+		<div class="card-header font_effect_heading">
+			Complete Spanish Course: Master Spanish Beginner to Advanced
+      <div class="bestseller_text_card_hover">Bestseller</div>
+      <div class="total_hourse">
+        <p>15.5 total hoursAll LevelsSubtitles, CC</p>
+      </div>
+		</div>
+		<div class="card-body card-body_popover">
+			<h4 class="card-title_pragraph">Lorem Ipsum is simply dummy text of the printing </h4>
+		   <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+       <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+       <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+			<div class="btn_card__popover">
+        <a href="#" class="btn1 btn-secondary1_bgcolor">Add to cart</a>
+        <a href="#" class="img_heart_whislist"><img src="{% static 'assets/images/heart.png' %}"></a>
+      </div>
+		</div>
+		<!-- <div class="card-footer text-muted bg-warning text-right">
+			<small class="text-white">
+				2 days ago
+			</small>
+		</div> -->
+	</div>	
+</div>
+</div>
+</div>
+</div>
+ <div>
+<div>
+<button class="card widthcard_all_cource" id="pover-card" class="btn btn-lg btn-info" data-toggle="popover" data-trigger="action" data-placement="right">
+  <img src="{% static 'assets/images/web-dev.jpg' %}" alt="Avatar" style="width:100%">
+  <div class="container_text container_text_bgcolor_gray">
+    <h2>Reactfolio: Boost your online presence with react.</h2> 
+    <!-- <p>Architect & Engineer</p>  -->
+     <div class="review_grid_card gapreview_grid">
+      <h3> <span class="rating_review_high">4.3</span> <img src="{% static 'assets/images/gold-star.png' %}" class="img-fluid"> <span class="rating_review_high">(12,000)</span> </h3>
+    </div>
+    <p>By Lorem Ipsum</p> 
+    <div class="tile_list_price">
+    <p>RM 5,999</p>
+    
+  </div>
+  </div>
+</button>
+<div  class="popover-content"> 
+<!-- <div id="popover-third" class="font_effect_heading">The third popover content goes here.</div> -->
+<div id="popover-card" >
+	<div class="card text-center">
+		<div class="card-header font_effect_heading">
+			Complete Spanish Course: Master Spanish Beginner to Advanced
+      <div class="bestseller_text_card_hover">Bestseller</div>
+      <div class="total_hourse">
+        <p>15.5 total hoursAll LevelsSubtitles, CC</p>
+      </div>
+		</div>
+		<div class="card-body card-body_popover">
+			<h4 class="card-title_pragraph">Lorem Ipsum is simply dummy text of the printing </h4>
+		   <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+       <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+       <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+			<div class="btn_card__popover">
+        <a href="#" class="btn1 btn-secondary1_bgcolor">Add to cart</a>
+        <a href="#" class="img_heart_whislist"><img src="{% static 'assets/images/heart.png' %}"></a>
+      </div>
+		</div>
+		<!-- <div class="card-footer text-muted bg-warning text-right">
+			<small class="text-white">
+				2 days ago
+			</small>
+		</div> -->
+	</div>	
+</div>
+</div>
+</div>
+</div>
+    <div>
+<div>
+<button class="card widthcard_all_cource" id="pover-card" class="btn btn-lg btn-info" data-toggle="popover" data-trigger="action" data-placement="right">
+  <img src="{% static 'assets/images/learn-Web-development.jpg' %}" alt="Avatar" style="width:100%">
+  <div class="container_text container_text_bgcolor_gray">
+    <h2>Reactfolio: Boost your online presence with react.</h2> 
+    <!-- <p>Architect & Engineer</p>  -->
+     <div class="review_grid_card gapreview_grid">
+      <h3> <span class="rating_review_high">4.3</span> <img src="{% static 'assets/images/gold-star.png' %}" class="img-fluid"> <span class="rating_review_high">(12,000)</span> </h3>
+    </div>
+    <p>By Lorem Ipsum</p> 
+    <div class="tile_list_price">
+    <p>RM 5,999</p>
+    
+  </div>
+  </div>
+</button>
+<div  class="popover-content"> 
+<!-- <div id="popover-third" class="font_effect_heading">The third popover content goes here.</div> -->
+<div id="popover-card" >
+	<div class="card text-center">
+		<div class="card-header font_effect_heading">
+			Complete Spanish Course: Master Spanish Beginner to Advanced
+      <div class="bestseller_text_card_hover">Bestseller</div>
+      <div class="total_hourse">
+        <p>15.5 total hoursAll LevelsSubtitles, CC</p>
+      </div>
+		</div>
+		<div class="card-body card-body_popover">
+			<h4 class="card-title_pragraph">Lorem Ipsum is simply dummy text of the printing </h4>
+		   <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+       <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+       <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+			<div class="btn_card__popover">
+        <a href="#" class="btn1 btn-secondary1_bgcolor">Add to cart</a>
+        <a href="#" class="img_heart_whislist"><img src="{% static 'assets/images/heart.png' %}"></a>
+      </div>
+		</div>
+		<!-- <div class="card-footer text-muted bg-warning text-right">
+			<small class="text-white">
+				2 days ago
+			</small>
+		</div> -->
+	</div>	
+</div>
+</div>
+</div>
+</div>
+   <div>
+<div>
+<button class="card widthcard_all_cource" id="pover-card" class="btn btn-lg btn-info" data-toggle="popover" data-trigger="action" data-placement="right">
+  <img src="{% static 'assets/images/make-money-as-a-content-creator.webp' %}" alt="Avatar" style="width:100%">
+  <div class="container_text container_text_bgcolor_gray">
+    <h2>Reactfolio: Boost your online presence with react.</h2> 
+    <!-- <p>Architect & Engineer</p>  -->
+     <div class="review_grid_card gapreview_grid">
+      <h3> <span class="rating_review_high">4.3</span> <img src="{% static 'assets/images/gold-star.png' %}" class="img-fluid"> <span class="rating_review_high">(12,000)</span> </h3>
+    </div>
+    <p>By Lorem Ipsum</p> 
+    <div class="tile_list_price">
+    <p>RM 5,999</p>
+    
+  </div>
+  </div>
+</button>
+<div  class="popover-content"> 
+<!-- <div id="popover-third" class="font_effect_heading">The third popover content goes here.</div> -->
+<div id="popover-card" >
+	<div class="card text-center">
+		<div class="card-header font_effect_heading">
+			Complete Spanish Course: Master Spanish Beginner to Advanced
+      <div class="bestseller_text_card_hover">Bestseller</div>
+      <div class="total_hourse">
+        <p>15.5 total hoursAll LevelsSubtitles, CC</p>
+      </div>
+		</div>
+		<div class="card-body card-body_popover">
+			<h4 class="card-title_pragraph">Lorem Ipsum is simply dummy text of the printing </h4>
+		   <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+       <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+       <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+			<div class="btn_card__popover">
+        <a href="#" class="btn1 btn-secondary1_bgcolor">Add to cart</a>
+        <a href="#" class="img_heart_whislist"><img src="{% static 'assets/images/heart.png' %}"></a>
+      </div>
+		</div>
+		<!-- <div class="card-footer text-muted bg-warning text-right">
+			<small class="text-white">
+				2 days ago
+			</small>
+		</div> -->
+	</div>	
+</div>
+</div>
+</div>
+</div>
+   <div>
+<div>
+<button class="card widthcard_all_cource" id="pover-card" class="btn btn-lg btn-info" data-toggle="popover" data-trigger="action" data-placement="right">
+  <img src="{% static 'assets/images/maxresdefault.jpg' %}" alt="Avatar" style="width:100%">
+  <div class="container_text container_text_bgcolor_gray">
+    <h2>Reactfolio: Boost your online presence with react.</h2> 
+    <!-- <p>Architect & Engineer</p>  -->
+     <div class="review_grid_card gapreview_grid">
+      <h3> <span class="rating_review_high">4.3</span> <img src="{% static 'assets/images/gold-star.png' %}" class="img-fluid"> <span class="rating_review_high">(12,000)</span> </h3>
+    </div>
+    <p>By Lorem Ipsum</p> 
+    <div class="tile_list_price">
+    <p>RM 5,999</p>
+    
+  </div>
+  </div>
+</button>
+<div  class="popover-content"> 
+<!-- <div id="popover-third" class="font_effect_heading">The third popover content goes here.</div> -->
+<div id="popover-card" >
+	<div class="card text-center">
+		<div class="card-header font_effect_heading">
+			Complete Spanish Course: Master Spanish Beginner to Advanced
+      <div class="bestseller_text_card_hover">Bestseller</div>
+      <div class="total_hourse">
+        <p>15.5 total hoursAll LevelsSubtitles, CC</p>
+      </div>
+		</div>
+		<div class="card-body card-body_popover">
+			<h4 class="card-title_pragraph">Lorem Ipsum is simply dummy text of the printing </h4>
+		   <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+       <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+       <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+			<div class="btn_card__popover">
+        <a href="#" class="btn1 btn-secondary1_bgcolor">Add to cart</a>
+        <a href="#" class="img_heart_whislist"><img src="{% static 'assets/images/heart.png' %}"></a>
+      </div>
+		</div>
+		<!-- <div class="card-footer text-muted bg-warning text-right">
+			<small class="text-white">
+				2 days ago
+			</small>
+		</div> -->
+	</div>	
+</div>
+</div>
+</div>
+</div>
+<div>
+<div>
+<button class="card widthcard_all_cource" id="pover-card" class="btn btn-lg btn-info" data-toggle="popover" data-trigger="focus" data-placement="right">
+  <img src="{% static 'assets/images/maxresdefault.jpg' %}" alt="Avatar" style="width:100%">
+  <div class="container_text container_text_bgcolor_gray">
+    <h2>Reactfolio: Boost your online presence with react.</h2> 
+    <!-- <p>Architect & Engineer</p>  -->
+     <div class="review_grid_card gapreview_grid">
+      <h3> <span class="rating_review_high">4.3</span> <img src="{% static 'assets/images/gold-star.png' %}" class="img-fluid"> <span class="rating_review_high">(12,000)</span> </h3>
+    </div>
+    <p>By Lorem Ipsum</p> 
+    <div class="tile_list_price">
+    <p>RM 5,999</p>
+    
+  </div>
+  </div>
+</button>
+<div  class="popover-content"> 
+<div id="popover-third">The third popover content goes here.</div>
+<div id="popover-card" class="">
+	<div class="card text-center">
+		<div class="card-header">
+			Complete Spanish Course: Master Spanish Beginner to Advanced
+		</div>
+		<div class="card-body">
+			<h4 class="card-title">Special title treatment</h4>
+			<p class="card-text">Using data-trigger="focus" causes the popover to close when you click away. Options are hover|focus|click</p>
+			<a href="#" class="btn btn-secondary">Go somewhere</a>
+		</div>
+		<!-- <div class="card-footer text-muted bg-warning text-right">
+			<small class="text-white">
+				2 days ago
+			</small>
+		</div> -->
+	</div>	
+</div>
+</div>
+</div>
+</div>
+  </section>
+      </div>
+        </div>
+        
+        
+        <div class="row row_margin-top">
+          <div class="col-md-12">
+        <div class="all_cource_heading_text">
+          <h1>Top courses in Web Development
+
+
+</h1>
+        </div>
+           <section class="regular1 slider">
+<div>
+<div>
+<button class="card widthcard_all_cource" id="pover-card" class="btn btn-lg btn-info" data-toggle="popover" data-trigger="action" data-placement="right">
+  <img src="{% static 'assets/images/portfolio-1.png' %}" alt="Avatar" style="width:100%">
+  <div class="container_text container_text_bgcolor_gray">
+    <h2>Reactfolio: Boost your online presence with react</h2> 
+    <!-- <p>Architect & Engineer</p>  -->
+     <div class="review_grid_card gapreview_grid">
+      <h3> <span class="rating_review_high">4.3</span> <img src="{% static 'assets/images/gold-star.png' %}" class="img-fluid"> <span class="rating_review_high">(12,000)</span> </h3>
+    </div>
+    <p>By Lorem Ipsum</p> 
+    <div class="tile_list_price">
+    <p>RM 5,999</p>
+    
+  </div>
+  </div>
+</button>
+<div  class="popover-content"> 
+<!-- <div id="popover-third" class="font_effect_heading">The third popover content goes here.</div> -->
+<div id="popover-card" >
+	<div class="card text-center">
+		<div class="card-header font_effect_heading">
+			Complete Spanish Course: Master Spanish Beginner to Advanced
+      <div class="bestseller_text_card_hover">Bestseller</div>
+      <div class="total_hourse">
+        <p>15.5 total hoursAll LevelsSubtitles, CC</p>
+      </div>
+		</div>
+		<div class="card-body card-body_popover">
+			<h4 class="card-title_pragraph">Lorem Ipsum is simply dummy text of the printing </h4>
+		   <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+       <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+       <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+			<div class="btn_card__popover">
+        <a href="#" class="btn1 btn-secondary1_bgcolor">Add to cart</a>
+        <a href="#" class="img_heart_whislist"><img src="{% static 'assets/images/heart.png' %}"></a>
+      </div>
+		</div>
+		<!-- <div class="card-footer text-muted bg-warning text-right">
+			<small class="text-white">
+				2 days ago
+			</small>
+		</div> -->
+	</div>	
+</div>
+</div>
+</div>
+</div>
+ <div>
+<div>
+<button class="card widthcard_all_cource" id="pover-card" class="btn btn-lg btn-info" data-toggle="popover" data-trigger="action" data-placement="right">
+  <img src="{% static 'assets/images/web-dev.jpg' %}" alt="Avatar" style="width:100%">
+  <div class="container_text container_text_bgcolor_gray">
+    <h2>Reactfolio: Boost your online presence with react.</h2> 
+    <!-- <p>Architect & Engineer</p>  -->
+     <div class="review_grid_card gapreview_grid">
+      <h3> <span class="rating_review_high">4.3</span> <img src="{% static 'assets/images/gold-star.png' %}" class="img-fluid"> <span class="rating_review_high">(12,000)</span> </h3>
+    </div>
+    <p>By Lorem Ipsum</p> 
+    <div class="tile_list_price">
+    <p>RM 5,999</p>
+    
+  </div>
+  </div>
+</button>
+<div  class="popover-content"> 
+<!-- <div id="popover-third" class="font_effect_heading">The third popover content goes here.</div> -->
+<div id="popover-card" >
+	<div class="card text-center">
+		<div class="card-header font_effect_heading">
+			Complete Spanish Course: Master Spanish Beginner to Advanced
+      <div class="bestseller_text_card_hover">Bestseller</div>
+      <div class="total_hourse">
+        <p>15.5 total hoursAll LevelsSubtitles, CC</p>
+      </div>
+		</div>
+		<div class="card-body card-body_popover">
+			<h4 class="card-title_pragraph">Lorem Ipsum is simply dummy text of the printing </h4>
+		   <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+       <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+       <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+			<div class="btn_card__popover">
+        <a href="#" class="btn1 btn-secondary1_bgcolor">Add to cart</a>
+        <a href="#" class="img_heart_whislist"><img src="{% static 'assets/images/heart.png' %}"></a>
+      </div>
+		</div>
+		<!-- <div class="card-footer text-muted bg-warning text-right">
+			<small class="text-white">
+				2 days ago
+			</small>
+		</div> -->
+	</div>	
+</div>
+</div>
+</div>
+</div>
+    <div>
+<div>
+<button class="card widthcard_all_cource" id="pover-card" class="btn btn-lg btn-info" data-toggle="popover" data-trigger="action" data-placement="right">
+  <img src="{% static 'assets/images/learn-Web-development.jpg' %}" alt="Avatar" style="width:100%">
+  <div class="container_text container_text_bgcolor_gray">
+    <h2>Reactfolio: Boost your online presence with react.</h2> 
+    <!-- <p>Architect & Engineer</p>  -->
+     <div class="review_grid_card gapreview_grid">
+      <h3> <span class="rating_review_high">4.3</span> <img src="{% static 'assets/images/gold-star.png' %}" class="img-fluid"> <span class="rating_review_high">(12,000)</span> </h3>
+    </div>
+    <p>By Lorem Ipsum</p> 
+    <div class="tile_list_price">
+    <p>RM 5,999</p>
+    
+  </div>
+  </div>
+</button>
+<div  class="popover-content"> 
+<!-- <div id="popover-third" class="font_effect_heading">The third popover content goes here.</div> -->
+<div id="popover-card" >
+	<div class="card text-center">
+		<div class="card-header font_effect_heading">
+			Complete Spanish Course: Master Spanish Beginner to Advanced
+      <div class="bestseller_text_card_hover">Bestseller</div>
+      <div class="total_hourse">
+        <p>15.5 total hoursAll LevelsSubtitles, CC</p>
+      </div>
+		</div>
+		<div class="card-body card-body_popover">
+			<h4 class="card-title_pragraph">Lorem Ipsum is simply dummy text of the printing </h4>
+		   <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+       <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+       <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+			<div class="btn_card__popover">
+        <a href="#" class="btn1 btn-secondary1_bgcolor">Add to cart</a>
+        <a href="#" class="img_heart_whislist"><img src="{% static 'assets/images/heart.png' %}"></a>
+      </div>
+		</div>
+		<!-- <div class="card-footer text-muted bg-warning text-right">
+			<small class="text-white">
+				2 days ago
+			</small>
+		</div> -->
+	</div>	
+</div>
+</div>
+</div>
+</div>
+   <div>
+<div>
+<button class="card widthcard_all_cource" id="pover-card" class="btn btn-lg btn-info" data-toggle="popover" data-trigger="action" data-placement="right">
+  <img src="{% static 'assets/images/make-money-as-a-content-creator.webp' %}" alt="Avatar" style="width:100%">
+  <div class="container_text container_text_bgcolor_gray">
+    <h2>Reactfolio: Boost your online presence with react.</h2> 
+    <!-- <p>Architect & Engineer</p>  -->
+     <div class="review_grid_card gapreview_grid">
+      <h3> <span class="rating_review_high">4.3</span> <img src="{% static 'assets/images/gold-star.png' %}" class="img-fluid"> <span class="rating_review_high">(12,000)</span> </h3>
+    </div>
+    <p>By Lorem Ipsum</p> 
+    <div class="tile_list_price">
+    <p>RM 5,999</p>
+    
+  </div>
+  </div>
+</button>
+<div  class="popover-content"> 
+<!-- <div id="popover-third" class="font_effect_heading">The third popover content goes here.</div> -->
+<div id="popover-card" >
+	<div class="card text-center">
+		<div class="card-header font_effect_heading">
+			Complete Spanish Course: Master Spanish Beginner to Advanced
+      <div class="bestseller_text_card_hover">Bestseller</div>
+      <div class="total_hourse">
+        <p>15.5 total hoursAll LevelsSubtitles, CC</p>
+      </div>
+		</div>
+		<div class="card-body card-body_popover">
+			<h4 class="card-title_pragraph">Lorem Ipsum is simply dummy text of the printing </h4>
+		   <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+       <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+       <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+			<div class="btn_card__popover">
+        <a href="#" class="btn1 btn-secondary1_bgcolor">Add to cart</a>
+        <a href="#" class="img_heart_whislist"><img src="{% static 'assets/images/heart.png' %}"></a>
+      </div>
+		</div>
+		<!-- <div class="card-footer text-muted bg-warning text-right">
+			<small class="text-white">
+				2 days ago
+			</small>
+		</div> -->
+	</div>	
+</div>
+</div>
+</div>
+</div>
+   <div>
+<div>
+<button class="card widthcard_all_cource" id="pover-card" class="btn btn-lg btn-info" data-toggle="popover" data-trigger="action" data-placement="right">
+  <img src="{% static 'assets/images/maxresdefault.jpg' %}" alt="Avatar" style="width:100%">
+  <div class="container_text container_text_bgcolor_gray">
+    <h2>Reactfolio: Boost your online presence with react.</h2> 
+    <!-- <p>Architect & Engineer</p>  -->
+     <div class="review_grid_card gapreview_grid">
+      <h3> <span class="rating_review_high">4.3</span> <img src="{% static 'assets/images/gold-star.png' %}" class="img-fluid"> <span class="rating_review_high">(12,000)</span> </h3>
+    </div>
+    <p>By Lorem Ipsum</p> 
+    <div class="tile_list_price">
+    <p>RM 5,999</p>
+    
+  </div>
+  </div>
+</button>
+<div  class="popover-content"> 
+<!-- <div id="popover-third" class="font_effect_heading">The third popover content goes here.</div> -->
+<div id="popover-card" >
+	<div class="card text-center">
+		<div class="card-header font_effect_heading">
+			Complete Spanish Course: Master Spanish Beginner to Advanced
+      <div class="bestseller_text_card_hover">Bestseller</div>
+      <div class="total_hourse">
+        <p>15.5 total hoursAll LevelsSubtitles, CC</p>
+      </div>
+		</div>
+		<div class="card-body card-body_popover">
+			<h4 class="card-title_pragraph">Lorem Ipsum is simply dummy text of the printing </h4>
+		   <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+       <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+       <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+			<div class="btn_card__popover">
+        <a href="#" class="btn1 btn-secondary1_bgcolor">Add to cart</a>
+        <a href="#" class="img_heart_whislist"><img src="{% static 'assets/images/heart.png' %}"></a>
+      </div>
+		</div>
+		<!-- <div class="card-footer text-muted bg-warning text-right">
+			<small class="text-white">
+				2 days ago
+			</small>
+		</div> -->
+	</div>	
+</div>
+</div>
+</div>
+</div>
+<div>
+<div>
+<button class="card widthcard_all_cource" id="pover-card" class="btn btn-lg btn-info" data-toggle="popover" data-trigger="focus" data-placement="right">
+  <img src="{% static 'assets/images/maxresdefault.jpg' %}" alt="Avatar" style="width:100%">
+  <div class="container_text container_text_bgcolor_gray">
+    <h2>Reactfolio: Boost your online presence with react.</h2> 
+    <!-- <p>Architect & Engineer</p>  -->
+     <div class="review_grid_card gapreview_grid">
+      <h3> <span class="rating_review_high">4.3</span> <img src="{% static 'assets/images/gold-star.png' %}" class="img-fluid"> <span class="rating_review_high">(12,000)</span> </h3>
+    </div>
+    <p>By Lorem Ipsum</p> 
+    <div class="tile_list_price">
+    <p>RM 5,999</p>
+    
+  </div>
+  </div>
+</button>
+<div  class="popover-content"> 
+<div id="popover-third">The third popover content goes here.</div>
+<div id="popover-card" class="">
+	<div class="card text-center">
+		<div class="card-header">
+			Complete Spanish Course: Master Spanish Beginner to Advanced
+		</div>
+		<div class="card-body">
+			<h4 class="card-title">Special title treatment</h4>
+			<p class="card-text">Using data-trigger="focus" causes the popover to close when you click away. Options are hover|focus|click</p>
+			<a href="#" class="btn btn-secondary">Go somewhere</a>
+		</div>
+		<!-- <div class="card-footer text-muted bg-warning text-right">
+			<small class="text-white">
+				2 days ago
+			</small>
+		</div> -->
+	</div>	
+</div>
+</div>
+</div>
+</div>
+  </section>
+      </div>
+        </div>
+
+         <div class="row row_margin-top">
+          <div class="col-md-12">
+        <div class="all_cource_heading_text">
+          <h1>Short and sweet courses for you</h1>
+        </div>
+           <section class="regular1 slider">
+<div>
+<div>
+<button class="card widthcard_all_cource" id="pover-card" class="btn btn-lg btn-info" data-toggle="popover" data-trigger="action" data-placement="right">
+  <img src="{% static 'assets/images/portfolio-1.png' %}" alt="Avatar" style="width:100%">
+  <div class="container_text container_text_bgcolor_gray">
+    <h2>Reactfolio: Boost your online presence with react</h2> 
+    <!-- <p>Architect & Engineer</p>  -->
+     <div class="review_grid_card gapreview_grid">
+      <h3> <span class="rating_review_high">4.3</span> <img src="{% static 'assets/images/gold-star.png' %}" class="img-fluid"> <span class="rating_review_high">(12,000)</span> </h3>
+    </div>
+    <p>By Lorem Ipsum</p> 
+    <div class="tile_list_price">
+    <p>RM 5,999</p>
+    
+  </div>
+  </div>
+</button>
+<div  class="popover-content"> 
+<!-- <div id="popover-third" class="font_effect_heading">The third popover content goes here.</div> -->
+<div id="popover-card" >
+	<div class="card text-center">
+		<div class="card-header font_effect_heading">
+			Complete Spanish Course: Master Spanish Beginner to Advanced
+      <div class="bestseller_text_card_hover">Bestseller</div>
+      <div class="total_hourse">
+        <p>15.5 total hoursAll LevelsSubtitles, CC</p>
+      </div>
+		</div>
+		<div class="card-body card-body_popover">
+			<h4 class="card-title_pragraph">Lorem Ipsum is simply dummy text of the printing </h4>
+		   <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+       <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+       <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+			<div class="btn_card__popover">
+        <a href="#" class="btn1 btn-secondary1_bgcolor">Add to cart</a>
+        <a href="#" class="img_heart_whislist"><img src="{% static 'assets/images/heart.png' %}"></a>
+      </div>
+		</div>
+		<!-- <div class="card-footer text-muted bg-warning text-right">
+			<small class="text-white">
+				2 days ago
+			</small>
+		</div> -->
+	</div>	
+</div>
+</div>
+</div>
+</div>
+ <div>
+<div>
+<button class="card widthcard_all_cource" id="pover-card" class="btn btn-lg btn-info" data-toggle="popover" data-trigger="action" data-placement="right">
+  <img src="{% static 'assets/images/web-dev.jpg' %}" alt="Avatar" style="width:100%">
+  <div class="container_text container_text_bgcolor_gray">
+    <h2>Reactfolio: Boost your online presence with react.</h2> 
+    <!-- <p>Architect & Engineer</p>  -->
+     <div class="review_grid_card gapreview_grid">
+      <h3> <span class="rating_review_high">4.3</span> <img src="{% static 'assets/images/gold-star.png' %}" class="img-fluid"> <span class="rating_review_high">(12,000)</span> </h3>
+    </div>
+    <p>By Lorem Ipsum</p> 
+    <div class="tile_list_price">
+    <p>RM 5,999</p>
+    
+  </div>
+  </div>
+</button>
+<div  class="popover-content"> 
+<!-- <div id="popover-third" class="font_effect_heading">The third popover content goes here.</div> -->
+<div id="popover-card" >
+	<div class="card text-center">
+		<div class="card-header font_effect_heading">
+			Complete Spanish Course: Master Spanish Beginner to Advanced
+      <div class="bestseller_text_card_hover">Bestseller</div>
+      <div class="total_hourse">
+        <p>15.5 total hoursAll LevelsSubtitles, CC</p>
+      </div>
+		</div>
+		<div class="card-body card-body_popover">
+			<h4 class="card-title_pragraph">Lorem Ipsum is simply dummy text of the printing </h4>
+		   <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+       <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+       <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+			<div class="btn_card__popover">
+        <a href="#" class="btn1 btn-secondary1_bgcolor">Add to cart</a>
+        <a href="#" class="img_heart_whislist"><img src="{% static 'assets/images/heart.png' %}"></a>
+      </div>
+		</div>
+		<!-- <div class="card-footer text-muted bg-warning text-right">
+			<small class="text-white">
+				2 days ago
+			</small>
+		</div> -->
+	</div>	
+</div>
+</div>
+</div>
+</div>
+    <div>
+<div>
+<button class="card widthcard_all_cource" id="pover-card" class="btn btn-lg btn-info" data-toggle="popover" data-trigger="action" data-placement="right">
+  <img src="{% static 'assets/images/learn-Web-development.jpg' %}" alt="Avatar" style="width:100%">
+  <div class="container_text container_text_bgcolor_gray">
+    <h2>Reactfolio: Boost your online presence with react.</h2> 
+    <!-- <p>Architect & Engineer</p>  -->
+     <div class="review_grid_card gapreview_grid">
+      <h3> <span class="rating_review_high">4.3</span> <img src="{% static 'assets/images/gold-star.png' %}" class="img-fluid"> <span class="rating_review_high">(12,000)</span> </h3>
+    </div>
+    <p>By Lorem Ipsum</p> 
+    <div class="tile_list_price">
+    <p>RM 5,999</p>
+    
+  </div>
+  </div>
+</button>
+<div  class="popover-content"> 
+<!-- <div id="popover-third" class="font_effect_heading">The third popover content goes here.</div> -->
+<div id="popover-card" >
+	<div class="card text-center">
+		<div class="card-header font_effect_heading">
+			Complete Spanish Course: Master Spanish Beginner to Advanced
+      <div class="bestseller_text_card_hover">Bestseller</div>
+      <div class="total_hourse">
+        <p>15.5 total hoursAll LevelsSubtitles, CC</p>
+      </div>
+		</div>
+		<div class="card-body card-body_popover">
+			<h4 class="card-title_pragraph">Lorem Ipsum is simply dummy text of the printing </h4>
+		   <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+       <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+       <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+			<div class="btn_card__popover">
+        <a href="#" class="btn1 btn-secondary1_bgcolor">Add to cart</a>
+        <a href="#" class="img_heart_whislist"><img src="{% static 'assets/images/heart.png' %}"></a>
+      </div>
+		</div>
+		<!-- <div class="card-footer text-muted bg-warning text-right">
+			<small class="text-white">
+				2 days ago
+			</small>
+		</div> -->
+	</div>	
+</div>
+</div>
+</div>
+</div>
+   <div>
+<div>
+<button class="card widthcard_all_cource" id="pover-card" class="btn btn-lg btn-info" data-toggle="popover" data-trigger="action" data-placement="right">
+  <img src="{% static 'assets/images/make-money-as-a-content-creator.webp' %}" alt="Avatar" style="width:100%">
+  <div class="container_text container_text_bgcolor_gray">
+    <h2>Reactfolio: Boost your online presence with react.</h2> 
+    <!-- <p>Architect & Engineer</p>  -->
+     <div class="review_grid_card gapreview_grid">
+      <h3> <span class="rating_review_high">4.3</span> <img src="{% static 'assets/images/gold-star.png' %}" class="img-fluid"> <span class="rating_review_high">(12,000)</span> </h3>
+    </div>
+    <p>By Lorem Ipsum</p> 
+    <div class="tile_list_price">
+    <p>RM 5,999</p>
+    
+  </div>
+  </div>
+</button>
+<div  class="popover-content"> 
+<!-- <div id="popover-third" class="font_effect_heading">The third popover content goes here.</div> -->
+<div id="popover-card" >
+	<div class="card text-center">
+		<div class="card-header font_effect_heading">
+			Complete Spanish Course: Master Spanish Beginner to Advanced
+      <div class="bestseller_text_card_hover">Bestseller</div>
+      <div class="total_hourse">
+        <p>15.5 total hoursAll LevelsSubtitles, CC</p>
+      </div>
+		</div>
+		<div class="card-body card-body_popover">
+			<h4 class="card-title_pragraph">Lorem Ipsum is simply dummy text of the printing </h4>
+		   <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+       <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+       <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+			<div class="btn_card__popover">
+        <a href="#" class="btn1 btn-secondary1_bgcolor">Add to cart</a>
+        <a href="#" class="img_heart_whislist"><img src="{% static 'assets/images/heart.png' %}"></a>
+      </div>
+		</div>
+		<!-- <div class="card-footer text-muted bg-warning text-right">
+			<small class="text-white">
+				2 days ago
+			</small>
+		</div> -->
+	</div>	
+</div>
+</div>
+</div>
+</div>
+   <div>
+<div>
+<button class="card widthcard_all_cource" id="pover-card" class="btn btn-lg btn-info" data-toggle="popover" data-trigger="action" data-placement="right">
+  <img src="{% static 'assets/images/maxresdefault.jpg' %}" alt="Avatar" style="width:100%">
+  <div class="container_text container_text_bgcolor_gray">
+    <h2>Reactfolio: Boost your online presence with react.</h2> 
+    <!-- <p>Architect & Engineer</p>  -->
+     <div class="review_grid_card gapreview_grid">
+      <h3> <span class="rating_review_high">4.3</span> <img src="{% static 'assets/images/gold-star.png' %}" class="img-fluid"> <span class="rating_review_high">(12,000)</span> </h3>
+    </div>
+    <p>By Lorem Ipsum</p> 
+    <div class="tile_list_price">
+    <p>RM 5,999</p>
+    
+  </div>
+  </div>
+</button>
+<div  class="popover-content"> 
+<!-- <div id="popover-third" class="font_effect_heading">The third popover content goes here.</div> -->
+<div id="popover-card" >
+	<div class="card text-center">
+		<div class="card-header font_effect_heading">
+			Complete Spanish Course: Master Spanish Beginner to Advanced
+      <div class="bestseller_text_card_hover">Bestseller</div>
+      <div class="total_hourse">
+        <p>15.5 total hoursAll LevelsSubtitles, CC</p>
+      </div>
+		</div>
+		<div class="card-body card-body_popover">
+			<h4 class="card-title_pragraph">Lorem Ipsum is simply dummy text of the printing </h4>
+		   <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+       <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+       <div class="media media-body_card_list_img">
+        <img src="{% static 'assets/images/check.png' %}">
+        <div class="media-body media-body_card_list">
+           <p>1000+ most useful vocabulary words</p>
+        </div>
+       </div>
+			<div class="btn_card__popover">
+        <a href="#" class="btn1 btn-secondary1_bgcolor">Add to cart</a>
+        <a href="#" class="img_heart_whislist"><img src="{% static 'assets/images/heart.png' %}"></a>
+      </div>
+		</div>
+		<!-- <div class="card-footer text-muted bg-warning text-right">
+			<small class="text-white">
+				2 days ago
+			</small>
+		</div> -->
+	</div>	
+</div>
+</div>
+</div>
+</div>
+<div>
+<div>
+<button class="card widthcard_all_cource" id="pover-card" class="btn btn-lg btn-info" data-toggle="popover" data-trigger="focus" data-placement="right">
+  <img src="{% static 'assets/images/maxresdefault.jpg' %}" alt="Avatar" style="width:100%">
+  <div class="container_text container_text_bgcolor_gray">
+    <h2>Reactfolio: Boost your online presence with react.</h2> 
+    <!-- <p>Architect & Engineer</p>  -->
+     <div class="review_grid_card gapreview_grid">
+      <h3> <span class="rating_review_high">4.3</span> <img src="{% static 'assets/images/gold-star.png' %}" class="img-fluid"> <span class="rating_review_high">(12,000)</span> </h3>
+    </div>
+    <p>By Lorem Ipsum</p> 
+    <div class="tile_list_price">
+    <p>RM 5,999</p>
+    
+  </div>
+  </div>
+</button>
+<div  class="popover-content"> 
+<div id="popover-third">The third popover content goes here.</div>
+<div id="popover-card" class="">
+	<div class="card text-center">
+		<div class="card-header">
+			Complete Spanish Course: Master Spanish Beginner to Advanced
+		</div>
+		<div class="card-body">
+			<h4 class="card-title">Special title treatment</h4>
+			<p class="card-text">Using data-trigger="focus" causes the popover to close when you click away. Options are hover|focus|click</p>
+			<a href="#" class="btn btn-secondary">Go somewhere</a>
+		</div>
+		<!-- <div class="card-footer text-muted bg-warning text-right">
+			<small class="text-white">
+				2 days ago
+			</small>
+		</div> -->
+	</div>	
+</div>
+</div>
+</div>
+</div>
+  </section>
+      </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 pagination_margin">
+            <div class="pagination">
+  <a href="#">&laquo;</a>
+   <a href="#" class="active">1</a>
+  <a href="#">2</a>
+  <a href="#">3</a>
+  <a href="#">4</a>
+  <a href="#">5</a>
+  <a href="#">6</a>
+  <a href="#">&raquo;</a>
+</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  
+
+{% endblock %}

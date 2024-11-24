@@ -14,30 +14,46 @@ $(document).ready(function() {
             setTimeout(function() {
                 video.pause();  // Pause the video
                 $('#myVideo')[0].controls = false;  // Hide the controls (including play icon)
-                $('#questionModal').fadeIn();  // Show the modal with the questions
+                $('#mcqModal').fadeIn();  // Show the modal with the questions
             }, 5000);  // 5000 milliseconds = 5 seconds
         }
     };
 });
 
+$(document).ready(function () {
+    $('#questionForm').on('submit', function (event) {
+        event.preventDefault();
 
-$('#questionForm').on('submit', function(event) {
-    event.preventDefault();
-    var answer1 = $('#question1').val();
-    var answer2 = $('#question2').val();
-    
-    if(answer1==1 && answer2==2){
-        $('#questionModal').fadeOut();
-        $('#myVideo')[0].controls = true;
+        // Retrieve answers for each question
+        var answer1 = $('input[name="q1"]:checked').val();
+        var answer2 = $('input[name="q2"]:checked').val();
+        var answer3 = $('input[name="q3"]:checked').val();
 
-            // Optionally, play the video automatically after answering correctly
-            video.play();
-            
-    }else{
-        alert("you are fail");
-    }
-    $('#questionModal').fadeOut();
-  
-    
- 
+        // Check if answers are correct
+        if (answer1 === 'b' && answer2 === 'a' && answer3 === 'b') {
+            // Hide the modal
+            $('#mcqModal').fadeOut();
+
+            // Enable video controls and play the video
+            var video = $('#myVideo')[0];
+            video.controls = true;
+
+            // Scroll the page down by 20% before playing the video
+            $('html, body').animate(
+                { scrollTop: $(document).height() * 0.2 },
+                500, // Duration of scroll animation in milliseconds
+                function () {
+                    video.play();
+                }
+            );
+        } else {
+            // Alert user of failure
+            alert("Oops! You failed. Please watch the video again and try. Thank you!");
+            $('#mcqModal').fadeOut();
+            // Optionally, replay the video
+            location.reload();
+        }
+    });
 });
+
+
