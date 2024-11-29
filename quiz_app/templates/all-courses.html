@@ -1,6 +1,39 @@
 {% extends 'layouts/layout.html'%}
 {% block content %}
 {% load static %}
+<style>
+.messages {
+  list-style: none;
+  padding: 0;
+  text-align:center;
+}
+
+.messages li {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.messages li.success {
+  background-color: #43db52;
+  color: #f5f9f6;
+}
+
+.messages li.error {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.messages li.warning {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.messages li.info {
+  background-color: #cce5ff;
+  color: #004085;
+}
+</style>
 <section class="all_cources_bgcolor">
   <div class="container">
     <div class="row">
@@ -12,12 +45,14 @@
   </div>
 
   <input type="checkbox" class="dd-input" id="test">
+ 
 
   <ul class="dd-menu">
     <li class="divider"></li>
      <li>
       <a href="#baserating1">Recommended for you</a>
     </li>
+
     <li class="divider"></li>
     <li>
       <a href="#">AJAX Development</a>
@@ -48,6 +83,13 @@
         <div class="all_cource_heading_text all_cource_heading_text_top">
           <h1>Recommended for you</h1>
         </div>
+        {% if messages %}
+        <ul class="messages">
+            {% for message in messages %}
+                <li class="{{ message.tags }} ">{{ message }}</li>
+            {% endfor %}
+        </ul>
+      {% endif %}
            <section class="regular1 slider">
 <div>
 <div>

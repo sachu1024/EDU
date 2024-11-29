@@ -21,7 +21,7 @@ def signup_view(request):
             # Create user and profile
             user = User.objects.create_user(username=email, email=email, password=password)
             Profile.objects.create(user=user, full_name=full_name)
-            
+            messages.success(request, "Sign up successful!")
             return redirect('login')
     else:
         form = SignupForm()
@@ -38,7 +38,7 @@ def login_view(request):
 
         if user is not None:
             login(request, user)
-            messages.success(request, "Login successful!")
+            messages.success(request, "Login successfully!")
             return redirect('all_courses')  # Replace 'home' with your desired redirect URL
         else:
             messages.error(request, "Invalid email or password")
